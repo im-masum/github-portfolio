@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <!-- CSS Style link -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/skins/color-1.css">
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <!-- Style Switcher link -->
+    <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled="">
+    <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="style-switcher.css">
+</head>
+
+<body>
+
+    <div class="main-container">
+        <div class="nav-toggle" onclick="toggleNav()">
+            <span id="toggleIcon">&#9776;</span>
+        </div>
+        <div class="aside" id="aside">
+            <div class="logo">
+                <img src="images/img.jpg" alt="">
+            </div>
+            <ul class="nav">
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+                <li><a href="#service"><i class="fa fa-list"></i> Services</a></li>
+                <li><a href="#portfolio"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="main-content">
+            <section class="home section" id="home">
+                <div class="container">
+                    <div class="row">
+                        <div class="home-info">
+                            <h3 class="hello">Hello, my name is <span class="name">Masum Iqbal Chowdhury</span></h3>
+                            <h3 class="my-profession">I'm a <span id="typed-text">Frontend Web Developer </span></h3>
+                            <p>A passionate Front-End Developer crafting beautiful and responsive websites using HTML,
+                                CSS, and JavaScript.</p>
+                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                        </div>
+                        <div class="home-image">
+                            <img src="images/home.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>About Me</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about-content">
+                            <div class="row">
+                                <div class="about-text">
+                                    <h3>I'm Mohammed Masum Iqbal Chowdhury <span> Front-End Web Developer</span></h3>
+                                    <p>
+                                        Creative and detail-oriented Front-End Developer with 2-3 years of experience
+                                        building responsive, user-centric
+                                        websites and web applications using HTML, CSS, JavaScript. Adept at turning
+                                        UI/UX designs into functional and high-performance code. Passionate about clean
+                                        code, accessibility, and continuously
+                                        learning new technologies.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="personal-info">
+                                    <div class="row">
+                                        <div class="info-item">
+                                            <p>Birthday : <span> 19 Oct 1984</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Degree : <span> BSS (Bachelor of Social Science)</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Age : <span> 42 Years</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Country : <span> Bangladesh</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Phone No : <span> +8801820040000</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>City : <span> Dhaka</span></p>
+                                        </div>
+                                        <div class="info-item">
+                                            <p>Email : <span> masum.iqbal.chowdhury@gmail.com</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="buttons">
+                                            <a href="#" class="btn">Download CV</a>
+                                            <a href="#contact" class="btn hire-me">Hire Me</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills">
+                                    <div class="row">
+                                        <div class="skill-item">
+                                            <h5>HTML</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 90%;"></div>
+                                                <div class="skill-percent">90%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>CSS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 70%;"></div>
+                                                <div class="skill-percent">70%</div>
+                                            </div>
+                                        </div>
+                                        <div class="skill-item">
+                                            <h5>JS</h5>
+                                            <div class="progress">
+                                                <div class="progress-in" style="width: 50%;"></div>
+                                                <div class="skill-percent">50%</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="service section" id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-mobile-alt"></i>
+                                </div>
+                                <h4>Mobile Screen View</h4>
+                                <p>
+                                    1. Built for Mobile, Ready for Anything.
+                                    2. Smooth, Fast & Mobile-First".
+                                    3. Your Pocket-Friendly Solution.
+                                    4. Designed to Fit Every Screen.
+                                    5. Responsive. Reliable. Ready.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-laptop-code"></i>
+                                </div>
+                                <h4>Laptop Screen View</h4>
+                                <p> 1. Crafting Code, 2. Creating Solutions. 3. Pixel-Perfect Designs. 4.
+                                    Developer-Driven Builds. 5. Front-End Brilliance on Every Screen.</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-bullhorn"></i>
+                                </div>
+                                <h4>Announce</h4>
+                                <p>Say Hello to Stunning, Responsive Design.
+                                    Built to Impress. Designed to Perform.
+                                    Introducing Next-Gen Web Design – Built for Impact.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-code"></i>
+                                </div>
+                                <h4>Code</h4>
+                                <p> "My Code, My Craft"<br>"Behind the Scenes: The Code The Drives It All"<br>"From
+                                    Concept to Code" <br>
+                                    "Built with Precision, Powered by Code" <br>
+                                    "Clean Code. Smart Solutions"</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-search"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>"Search Everything You Need"<br>
+                                    "Find What You're Looking For"<br>
+                                    "Start Your Search"<br>
+                                    "Explore with Ease"<br>
+                                    "Quick Search. Instant Results."</p>
+                            </div>
+                        </div>
+
+                        <div class="service-item">
+                            <div class="service-item-inner">
+                                <div class="icon">
+                                    <i class="fa fa-palette"></i>
+                                </div>
+                                <h4>Web Design</h4>
+                                <p>"Designs That Speak Louder Than Words"<br>
+                                    "Art Meets Function"<br>
+                                    "Designed to Delight"<br>
+                                    "Creative Works"<br>
+                                    "Visual Magic in Motion"</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading">
+                            <h2>My Last Projects</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-item ">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/furniture-concept-1.jpg" alt="">
+                                    <a href="https://im-masum.github.io/new-furniture-concept/">furniture-concept-1</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/furniture-concept-2.jpg" alt="">
+                                    <a href="https://im-masum.github.io/modern-furniture/">furniture-concept-2</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/pizza-hut.png" alt="">
+                                    <a
+                                        href="https://im-masum.github.io/pizza-hut-webapps-concept/">pizza-hut-concept</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/ecommerce-01.jpg" alt="">
+                                    <a href="https://im-masum.github.io/E-commerce-website/">e-commerce website</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio-item">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/portfolio-img.jpg" alt="">
+                                    <a href="https://im-masum.github.io/portfolio-design-1/">my simple portfolio</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title">have you any question ?</h3>
+                    <h4 class="contact-sub-title">i'm at your service</h4>
+                    <div class="row">
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Us On</h4>
+                            <p>+8801820040000</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Office</h4>
+                            <p>Dhaka</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>masum.iqbal.chowdhury@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>Website</h4>
+                            <p>www.masum.com</p>
+                        </div>
+                    </div>
+
+                    <h3 class="contact-title">SEND ME AN EMAIL ?</h3>
+                    <h4 class="contact-sub-title">I'M VERY RESPONSIVE TO MESSAGES</h4>
+                    <div class="row">
+                        <div class="contact-form">
+                            <div class="row">
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="form-item col-12 ">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 ">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 ">
+                                    <div class="form-group">
+                                        <button type="submit" class="btn">Send Message</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer section" id="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title">
+                            <h2>Footer</h2>
+                            <h3 class="footer-title">Thanks for visiting my site</h3>
+                        </div>
+                    </div>
+
+                    <div class="social-media-link">
+                        <a href="https://www.facebook.com/masum.iqbal.9638"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.masum.iqbal.chowdhury@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://github.com/im-masum"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/masum-iqbal-chowdhury-5628a41ab"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="footer-nav">
+                        <a href="#faq">FAQ</a>
+                        <a href="#about">About</a>
+                        <a href="#contact">Contact</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#portfolio">Portfolio</a>
+                    </div>
+                    
+                    <div class="footer-bottom">
+                        <p>&copy; 2024. Mohammed Masum Iqbal Chowdhury All Rights Reserved.</p>
+                        <button id="backToTop">Back to top ↑</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- ====style switcher start -->
+    <div class="style-switcher">
+        <div class="day-night s-icon">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <h4>Theme Colors</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- ====style switcher end -->
+
+    <!-- ====Js Files -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"
+        referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+
+</body>
+
+</html>
