@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Pizza Hut </title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="images/pizza-logo.png" alt="">
+        </div>
+        <input type="checkbox" id="click">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Offers</a>
+            <a href="#">Locations</a>
+            <a href="#">Contact</a>
+        </nav>
+        <label for="click" class="menu-icon">
+            <i class="fa-solid fa-bars"></i></label>
+        <div class="order-btn">Order Now</div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Fresh. Delicious. Delivered.</h1>
+            <p>Experience the best pizzas crafted with fresh ingredients, bold flavors, and a touch of love.</p>
+            <a href="#menu" class="btn">View Menu</a>
+            <a href="#order" class="btn btn-secondary">Order Now</a>
+        </div>
+    </section>
+
+
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <img src="images/pizza-1.jpg" alt="Pizza 1">
+                <h3>Classic Margherita</h3>
+                <p>Rich tomato sauce, fresh mozzarella, and basil leaves.</p>
+                <div class="price">$9.99</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card">
+                <img src="images/pizza-2.jpg" alt="Pizza 2">
+                <h3>Pepperoni Feast</h3>
+                <p>Loaded with pepperoni and a blend of cheese.</p>
+                <div class="price">$12.99</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="images/pizza-3.jpg" alt="Pizza 3">
+                <h3>Veggie Supreme</h3>
+                <p>A colorful mix of fresh veggies and gooey cheese.</p>
+                <div class="price">$10.99</div>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="images/pizza-4.jpg" alt="Pizza 4">
+                <h3>BBQ Chicken</h3>
+                <p>Grilled chicken, BBQ sauce, and melted cheese.</p>
+                <div class="price">$13.99</div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <h2>Why Choose Us?</h2>
+        <div class="features-container">
+            <div class="feature-card">
+                <img src="images/fresh-ingredient.jpg" alt="Fresh Ingredients">
+                <h3>Fresh Ingredients</h3>
+                <p>We use only the freshest and finest ingredients in our pizzas.</p>
+            </div>
+            <div class="feature-card">
+                <img src="images/delivery-img.jpg" alt="Fast Delivery">
+                <h3>Fast Delivery</h3>
+                <p>Enjoy your hot and delicious pizza delivered right to your doorstep.</p>
+            </div>
+            <div class="feature-card">
+                <img src="images/special-offer.png" alt="Special Offers">
+                <h3>Special Offers</h3>
+                <p>Get the best deals and discounts on your favorite pizzas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers-section">
+        <h2>Special Offers</h2>
+        <div class="offers-container">
+            <!-- Offer Card 1 -->
+            <div class="offer-card">
+                <div class="offer-image">
+                    <img src="images/buy-1-get-1.jpg" alt="Offer 1">
+                </div>
+                <h3 class="offer-title">Buy 1 Get 1 Free</h3>
+                <p class="offer-description">Enjoy two pizzas for the price of one. Limited time only!</p>
+                <p class="offer-price">$19.99</p>
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+
+            <!-- Offer Card 2 -->
+            <div class="offer-card">
+                <div class="offer-image">
+                    <img src="images/family-combo.jpg" alt="Offer 2">
+                </div>
+                <h3 class="offer-title">Family Feast Combo</h3>
+                <p class="offer-description">Get a large pizza, 4 drinks, and sides at an unbeatable price!</p>
+                <p class="offer-price">$29.99</p>
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+
+            <!-- Offer Card 3 -->
+            <div class="offer-card">
+                <div class="offer-image">
+                    <img src="images/weekend-special.jpg" alt="Offer 3">
+                </div>
+                <h3 class="offer-title">Weekend Special</h3>
+                <p class="offer-description">20% off on all orders above $25. Valid on weekends only.</p>
+                <p class="offer-price">$20.00</p>
+                <a href="#" class="cta-button">Order Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-finder">
+        <h2>Find Your Nearest Pizza Hut</h2>
+        <p>Enter your location below to find the closest Pizza Hut outlet near you.</p>
+        <div class="search-bar">
+            <input type="text" placeholder="Enter your city or zip code" aria-label="Location Search">
+            <button type="button">Search</button>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14604.262106081189!2d90.40611859670814!3d23.780680842911153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c79ebfc24eab%3A0xea7dab563f12457a!2sGulshan%201%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1735311466231!5m2!1sen!2sbd"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial-card">
+                <img src="images/img-1.jpg" alt="Customer Photo">
+                <h3>Iftikar hossain</h3>
+                <p>"The best pizza I have ever had! Fast delivery and great customer service. Highly recommend!"</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/img-2.jpg" alt="Customer Photo">
+                <h3>Masum Iqbal</h3>
+                <p>"Amazing variety and fresh ingredients. The offers are unbeatable. Love Pizza Hut!"</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <img src="images/img-3.jpg" alt="Customer Photo">
+                <h3>Abdul Munim</h3>
+                <p>"Superb experience every time I order. The cheesy crust is to die for!"</p>
+                <div class="rating">
+                    <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="newsletter">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates, exclusive offers, and more delivered to your inbox!</p>
+        <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-column">
+            <h3>About Us</h3>
+            <ul>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="footer-social">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-bottom">
+        &copy; 2025 Pizza Hut. All rights reserved.
+    </div>
+
+
+</body>
+
+</html>
